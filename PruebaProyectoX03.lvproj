@@ -12,10 +12,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
+			<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
 			<Item Name="User Interfase.lvlib" Type="Library" URL="../Libraries/User Interfase/User Interfase.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
+			<Item Name="Test Settings API.vi" Type="VI" URL="../Libraries/Settings/Test Settings API.vi"/>
 			<Item Name="Test User Interfase API.vi" Type="VI" URL="../Libraries/User Interfase/Test User Interfase API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
